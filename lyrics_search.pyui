@@ -1,0 +1,183 @@
+[
+  {
+    "nodes" : [
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{0, 33}, {320, 43}}",
+        "class" : "Button",
+        "attributes" : {
+          "action" : "pushed_tableview_button",
+          "frame" : "{{120, 224}, {80, 32}}",
+          "title" : "再検索する",
+          "uuid" : "B8CD2C24-B15D-463A-AAE0-BE46FE454262",
+          "font_bold" : false,
+          "class" : "Button",
+          "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "name" : "tableview_button",
+          "font_size" : 15
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{0, 32}, {320, 448}}",
+        "class" : "WebView",
+        "attributes" : {
+          "flex" : "WH",
+          "frame" : "{{60, 140}, {200, 200}}",
+          "uuid" : "2D794684-A677-4106-A212-89B1F8EED14B",
+          "class" : "WebView",
+          "name" : "webview",
+          "scales_to_fit" : true
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{0, 76}, {320, 404}}",
+        "class" : "TableView",
+        "attributes" : {
+          "uuid" : "AF5F78DA-13BD-4A28-ABB2-E8F12C972E95",
+          "data_source_action" : "selected_item",
+          "corner_radius" : 0,
+          "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "frame" : "{{60, 140}, {200, 200}}",
+          "data_source_items" : "",
+          "data_source_number_of_lines" : 1,
+          "border_width" : 0,
+          "data_source_edit_action" : "",
+          "alpha" : 1,
+          "data_source_delete_enabled" : false,
+          "data_source_font_size" : 18,
+          "row_height" : 44,
+          "data_source_accessory_action" : "",
+          "class" : "TableView",
+          "name" : "tableview",
+          "flex" : "WH"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{0, 119}, {320, 361}}",
+        "class" : "TableView",
+        "attributes" : {
+          "uuid" : "CFD366B9-BF08-4D79-9FBE-D08B191BABA6",
+          "data_source_action" : "selected_search_item",
+          "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "frame" : "{{60, 140}, {200, 200}}",
+          "data_source_items" : "",
+          "data_source_number_of_lines" : 1,
+          "data_source_delete_enabled" : false,
+          "data_source_font_size" : 18,
+          "row_height" : 44,
+          "class" : "TableView",
+          "name" : "search_tableview",
+          "flex" : "WH"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{0, 0}, {320, 29}}",
+        "class" : "SegmentedControl",
+        "attributes" : {
+          "action" : "switch_webview",
+          "flex" : "LR",
+          "segments" : "Search |Lyric",
+          "frame" : "{{100, 226}, {120, 29}}",
+          "tint_color" : "RGBA(0.060069,0.061321,0.061321,1.000000)",
+          "alpha" : 1,
+          "class" : "SegmentedControl",
+          "uuid" : "408C9FF5-F060-4DEB-BCA8-2241B607EAB4",
+          "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "custom_attributes" : "",
+          "name" : "segmentedcontrol"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{0, 32}, {276, 44}}",
+        "class" : "TextField",
+        "attributes" : {
+          "placeholder" : "曲名を入力してください",
+          "font_size" : 17,
+          "frame" : "{{60, 224}, {200, 32}}",
+          "spellchecking_type" : "default",
+          "class" : "TextField",
+          "uuid" : "C5F2BF84-86A9-427E-8A1B-783CFA49791B",
+          "alignment" : "left",
+          "text" : "",
+          "autocorrection_type" : "default",
+          "name" : "textfield",
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{276, 32}, {44, 44}}",
+        "class" : "Button",
+        "attributes" : {
+          "action" : "pushed_button",
+          "name" : "search_button",
+          "frame" : "{{120, 224}, {80, 32}}",
+          "title" : "Button",
+          "uuid" : "3D79CA92-1DFF-45DC-99C6-316E939A8FE1",
+          "class" : "Button",
+          "font_bold" : false,
+          "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "font_size" : 15,
+          "image_name" : "iob:search_256"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{0, 76}, {320, 43}}",
+        "class" : "Label",
+        "attributes" : {
+          "name" : "search_tableview_label",
+          "text_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+          "frame" : "{{85, 224}, {150, 32}}",
+          "uuid" : "25E633A8-49A0-46F3-B9BF-24086739FBBB",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "以下の候補から検索",
+          "background_color" : "RGBA(1.000000,1.020833,1.020833,1.000000)",
+          "font_size" : 17,
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      }
+    ],
+    "frame" : "{{0, 0}, {320, 480}}",
+    "class" : "View",
+    "attributes" : {
+      "name" : "Lyrics Search",
+      "enabled" : true,
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    },
+    "selected" : false
+  }
+]
